@@ -20,7 +20,7 @@
 
 ### 작품 문의
 
-작품 사용·전시·협업 등 모든 문의는 **mjkwag4505@naver.com** 또는 **me@meenj04.com** 으로 보내주세요.
+작품 사용·전시·협업 등 모든 문의는 [mjkwag4505@naver.com](mailto:mjkwag4505@naver.com) 또는 [me@meenj04.com](mailto:me@meenj04.com) 으로 보내주세요.
 
 ---
 
@@ -39,7 +39,7 @@ The site collects the artist's ongoing work in fine art and fashion — painting
 
 ### Inquiries
 
-For exhibition, licensing, or collaboration inquiries, please contact **me@meenj04.com**.
+For exhibition, licensing, or collaboration inquiries, please contact [mjkwag4505@naver.com](mailto:mjkwag4505@naver.com) or [me@meenj04.com](mailto:me@meenj04.com).
 
 ---
 
