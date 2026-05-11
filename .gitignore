@@ -41,3 +41,6 @@ next-env.d.ts
 
 # OS junk
 Thumbs.db
+
+# Gemini CLI / Claude temporary files
+.claude/
