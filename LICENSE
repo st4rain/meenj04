@@ -1,17 +1,28 @@
-License — meenj04.com
-======================
+License
+========
 
-This repository contains two distinct kinds of material, each under a
-different license.
+This repository contains both website source code and artistic content.
+They are licensed separately.
 
 ────────────────────────────────────────────────────────────────────────
-1. Source Code  ·  MIT License
+Code (MIT)
 ────────────────────────────────────────────────────────────────────────
 
-The website source code (TypeScript / TSX / JSX, configuration files,
-scripts, stylesheets, build tooling — everything outside `public/img/`,
-`public/posts/`, and `public/background.png`) is released under the
-MIT License.
+The website source code is licensed under the MIT License.
+
+This includes things like:
+
+- TypeScript / TSX / JSX files
+- configs
+- scripts
+- styles
+- build setup
+
+Basically, everything in this repository **except**:
+
+- public/img/
+- public/posts/
+- public/background.png
 
 Copyright (c) 2026 Gwak Minji (곽민지)
 
@@ -19,58 +30,67 @@ Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
 "Software"), to deal in the Software without restriction, including
 without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
+distribute, sublicense, and/or sell copies of the Software, subject to
 the following conditions:
 
 The above copyright notice and this permission notice shall be included
 in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 ────────────────────────────────────────────────────────────────────────
-2. Artwork, Photographs, and Written Content  ·  All Rights Reserved
+Artwork / Images / Text (All Rights Reserved)
 ────────────────────────────────────────────────────────────────────────
 
-All artwork, photographs, illustrations, and written texts (artist
-statements, captions, descriptions) — including but not limited to all
-files inside:
+All artworks, photographs, images, texts, captions, and other creative
+content in this project are **not open source**.
 
-  - public/img/works/
-  - public/img/archive/
-  - public/img/photo-preview.jpg
-  - public/background.png
-  - any visual or written content rendered on https://meenj04.com
+This includes content inside:
 
-are © 2026 Gwak Minji (곽민지). All rights reserved.
+- public/img/works/
+- public/img/archive/
+- public/img/photo-preview.jpg
+- public/background.png
 
-These materials may NOT be reproduced, redistributed, modified,
-published, transmitted, or used in any form — commercial or otherwise —
-without prior written permission from the artist.
+as well as any visual or written content shown on:
 
-For licensing, exhibition, or commercial-use inquiries, please contact:
+https://meenj04.com
 
-  me@meenj04.com
+These works are © 2026 Gwak Minji (곽민지).
+All rights reserved.
+
+Please do not copy, redistribute, edit, reuse, or republish any artwork,
+images, or written content without permission.
+
+If you'd like to use something, collaborate, or ask about licensing:
+
+mjkwag4505@naver.com
+me@meenj04.com
 
 ────────────────────────────────────────────────────────────────────────
-한국어 요약
+한국어
 ────────────────────────────────────────────────────────────────────────
 
-이 저장소의 라이선스는 두 부분으로 나뉩니다.
+이 저장소는 **코드와 작품 콘텐츠의 라이선스가 분리**되어 있습니다.
 
-1. 소스 코드 (MIT License)
-   웹사이트의 코드(TS/TSX, 설정 파일, 스크립트 등)는 MIT 라이선스로
-   공개됩니다. 자유롭게 복제·수정·재배포 가능합니다.
+1. 코드 (MIT)
 
-2. 작품 · 사진 · 글 (All Rights Reserved / 모든 권리 보유)
-   `public/img/works/`, `public/img/archive/` 등에 포함된 작품
-   이미지, 사진, 작가 노트 텍스트는 © 2026 곽민지의 저작물입니다.
-   사전 서면 동의 없이 복제·재배포·수정·상업적 이용을 금지합니다.
+웹사이트 소스 코드는 MIT 라이선스를 따릅니다.
+(TS/TSX, 설정 파일, 스타일, 스크립트 등)
 
-작품 사용 및 협업 문의: me@meenj04.com
+단, 아래 콘텐츠 파일은 제외됩니다.
+
+- public/img/
+- public/posts/
+- public/background.png
+
+2. 작품 · 이미지 · 글 (모든 권리 보유)
+
+작품 이미지, 사진, 글, 캡션 등 창작 콘텐츠는
+© 2026 곽민지의 저작물입니다.
+
+사전 허가 없이 복제, 수정, 재배포, 재사용을 금지합니다.
+
+문의:
+mjkwag4505@naver.com
+me@meenj04.com
