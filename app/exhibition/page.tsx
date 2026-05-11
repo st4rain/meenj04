@@ -64,7 +64,7 @@ const EXHIBITIONS: Exhibition[] = [
       en: "Artsteps Virtual Gallery",
     },
     type: "group",
-    cover: "/img/exhibitions/nature-seeps-in-2025/cover.png",
+    cover: "/img/exhibitions/nature-seeps-in-2025/cover.webp",
     /* Source is a tighter gallery shot (451×297, ≈1.52:1) — the three
      * hanging photographs are framed cleanly with no dark side walls,
      * so a 3:2 card crops effectively nothing (the source is 1.2%

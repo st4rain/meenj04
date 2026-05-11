@@ -60,7 +60,7 @@ const ARTICLES: FashionArticle[] = [
     title: "H-Line Slit Skirt",
     year: "2024",
     thumbnail: "/img/works/fashion/h-line-slit-skirt-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/h-line-slit-skirt-2024/spread.png",
+    spread: "/img/works/fashion/h-line-slit-skirt-2024/spread.webp",
   },
   {
     id: 2,
@@ -68,7 +68,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Gather Skirt",
     year: "2024",
     thumbnail: "/img/works/fashion/gather-skirt-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/gather-skirt-2024/spread.png",
+    spread: "/img/works/fashion/gather-skirt-2024/spread.webp",
   },
   {
     id: 3,
@@ -76,7 +76,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Mandarin Collar",
     year: "2024",
     thumbnail: "/img/works/fashion/mandarin-collar-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/mandarin-collar-2024/spread.png",
+    spread: "/img/works/fashion/mandarin-collar-2024/spread.webp",
   },
   {
     id: 4,
@@ -84,7 +84,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Flat Collar",
     year: "2024",
     thumbnail: "/img/works/fashion/flat-collar-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/flat-collar-2024/spread.png",
+    spread: "/img/works/fashion/flat-collar-2024/spread.webp",
   },
   {
     id: 5,
@@ -92,7 +92,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Bow Tie Collar",
     year: "2024",
     thumbnail: "/img/works/fashion/bow-tie-collar-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/bow-tie-collar-2024/spread.png",
+    spread: "/img/works/fashion/bow-tie-collar-2024/spread.webp",
   },
   {
     id: 6,
@@ -100,7 +100,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Drop Shoulder Shirt",
     year: "2024",
     thumbnail: "/img/works/fashion/drop-shoulder-shirt-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/drop-shoulder-shirt-2024/spread.png",
+    spread: "/img/works/fashion/drop-shoulder-shirt-2024/spread.webp",
   },
   {
     id: 7,
@@ -108,7 +108,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Hooded Jacket",
     year: "2024",
     thumbnail: "/img/works/fashion/hooded-jacket-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/hooded-jacket-2024/spread.png",
+    spread: "/img/works/fashion/hooded-jacket-2024/spread.webp",
   },
   {
     id: 8,
@@ -116,7 +116,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Trench Coat",
     year: "2024",
     thumbnail: "/img/works/fashion/trench-coat-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/trench-coat-2024/spread.png",
+    spread: "/img/works/fashion/trench-coat-2024/spread.webp",
   },
   {
     id: 9,
@@ -130,7 +130,7 @@ const ARTICLES: FashionArticle[] = [
       en: "Digital Illustration",
     },
     thumbnail: "/img/works/fashion/ocean-pearl-2024/thumbnail.jpg",
-    spread: "/img/works/fashion/ocean-pearl-2024/spread.png",
+    spread: "/img/works/fashion/ocean-pearl-2024/spread.webp",
     description: {
       ko: [
         "바다의 흐름과 파도, 굴과 조개의 유기적인 형태에서 영감을 받아 디자인한 디지털 패션 일러스트레이션 작업입니다.",
@@ -152,7 +152,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Distorted Frill",
     year: "2025",
     thumbnail: "/img/works/fashion/distorted-frill-2025/thumbnail.jpg",
-    spread: "/img/works/fashion/distorted-frill-2025/spread.png",
+    spread: "/img/works/fashion/distorted-frill-2025/spread.webp",
   },
   {
     id: 11,
@@ -160,7 +160,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Tradition in Pieces",
     year: "2025",
     thumbnail: "/img/works/fashion/tradition-in-pieces-2025/thumbnail.jpg",
-    spread: "/img/works/fashion/tradition-in-pieces-2025/spread.png",
+    spread: "/img/works/fashion/tradition-in-pieces-2025/spread.webp",
   },
   {
     id: 12,
@@ -168,7 +168,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Layered Fluidity",
     year: "2025",
     thumbnail: "/img/works/fashion/layered-fluidity-2025/thumbnail.jpg",
-    spread: "/img/works/fashion/layered-fluidity-2025/spread.png",
+    spread: "/img/works/fashion/layered-fluidity-2025/spread.webp",
   },
   {
     id: 13,
@@ -176,7 +176,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Ruffled Illusion",
     year: "2025",
     thumbnail: "/img/works/fashion/ruffled-illusion-2025/thumbnail.jpg",
-    spread: "/img/works/fashion/ruffled-illusion-2025/spread.png",
+    spread: "/img/works/fashion/ruffled-illusion-2025/spread.webp",
   },
   {
     id: 14,
@@ -184,7 +184,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Split Silhouette",
     year: "2025",
     thumbnail: "/img/works/fashion/split-silhouette-2025/thumbnail.jpg",
-    spread: "/img/works/fashion/split-silhouette-2025/spread.png",
+    spread: "/img/works/fashion/split-silhouette-2025/spread.webp",
   },
   {
     id: 15,
@@ -192,7 +192,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Linear Contrast",
     year: "2025",
     thumbnail: "/img/works/fashion/linear-contrast-2025/thumbnail.jpg",
-    spread: "/img/works/fashion/linear-contrast-2025/spread.png",
+    spread: "/img/works/fashion/linear-contrast-2025/spread.webp",
   },
   {
     id: 16,
@@ -200,7 +200,7 @@ const ARTICLES: FashionArticle[] = [
     title: "Fluid Contour",
     year: "2025",
     thumbnail: "/img/works/fashion/fluid-contour-2025/thumbnail.jpg",
-    spread: "/img/works/fashion/fluid-contour-2025/spread.png",
+    spread: "/img/works/fashion/fluid-contour-2025/spread.webp",
   },
   {
     /* Multi-page design spread: thumbnail (대표이미지) + three 16:9 process
@@ -211,9 +211,9 @@ const ARTICLES: FashionArticle[] = [
     year: "2025",
     thumbnail: "/img/works/fashion/the-trace-of-wind-2025/thumbnail.jpg",
     spread: [
-      "/img/works/fashion/the-trace-of-wind-2025/spread-1.png",
-      "/img/works/fashion/the-trace-of-wind-2025/spread-2.png",
-      "/img/works/fashion/the-trace-of-wind-2025/spread-3.png",
+      "/img/works/fashion/the-trace-of-wind-2025/spread-1.webp",
+      "/img/works/fashion/the-trace-of-wind-2025/spread-2.webp",
+      "/img/works/fashion/the-trace-of-wind-2025/spread-3.webp",
     ],
   },
   {
@@ -225,16 +225,16 @@ const ARTICLES: FashionArticle[] = [
     year: "2025",
     thumbnail: "/img/works/fashion/grace-ceramic-2025/thumbnail.jpg",
     spread: [
-      "/img/works/fashion/grace-ceramic-2025/spread-1.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-2.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-3.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-4.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-5.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-6.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-7.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-8.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-9.png",
-      "/img/works/fashion/grace-ceramic-2025/spread-10.png",
+      "/img/works/fashion/grace-ceramic-2025/spread-1.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-2.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-3.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-4.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-5.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-6.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-7.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-8.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-9.webp",
+      "/img/works/fashion/grace-ceramic-2025/spread-10.webp",
     ],
   },
 ];

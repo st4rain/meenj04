@@ -224,7 +224,7 @@ const AboutPage = () => {
           <Grid>
             <ProfileColumn>
               <ProfileFrame>
-                <img src="/img/about/profile.png" alt={home.name} />
+                <img src="/img/about/profile.webp" alt={home.name} />
               </ProfileFrame>
               <ProfileName>{home.name}</ProfileName>
               <ProfileTagline>{home.tagline}</ProfileTagline>

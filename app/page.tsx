@@ -30,9 +30,9 @@ import { translations } from "./translations";
  *               the bottom number/label on the card's bg color. Used for
  *               artworks whose aspect ratio differs from the card's. */
 const CATS = [
-  { href: "/works/fine-art", label: "회화", en: "Fine Art", bg: "#E2DED6", n: "01", photo: "/img/works/fine-art/genesis-2025/process-4.png", fit: "cover" as const },
+  { href: "/works/fine-art", label: "회화", en: "Fine Art", bg: "#E2DED6", n: "01", photo: "/img/works/fine-art/genesis-2025/process-4.webp", fit: "cover" as const },
   { href: "/works/fashion",  label: "패션", en: "Fashion",  bg: "#CBC6BC", n: "02", photo: "/img/fashion-preview.jpg",  fit: "cover" as const },
-  { href: "/works/photo",    label: "사진", en: "Photo",    bg: "#B5B2AD", n: "03", photo: "/img/photo-preview.jpg",                       fit: "cover" as const },
+  { href: "/works/photo",    label: "사진", en: "Photo",    bg: "#B5B2AD", n: "03", photo: "/img/photo-preview.webp",                       fit: "cover" as const },
 ];
 
 const CARD_POS = [

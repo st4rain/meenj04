@@ -99,17 +99,17 @@ const ARTICLES: Article[] = [
     id: 1,
     title: "Private Records",
     year: "2023",
-    thumbnail: "/img/works/fine-art/private-records-2023/main.png",
+    thumbnail: "/img/works/fine-art/private-records-2023/main.webp",
     images: [
-      "/img/works/fine-art/private-records-2023/1.png",
-      "/img/works/fine-art/private-records-2023/2.png",
-      "/img/works/fine-art/private-records-2023/3.png",
-      "/img/works/fine-art/private-records-2023/4.png",
-      "/img/works/fine-art/private-records-2023/5.png",
-      "/img/works/fine-art/private-records-2023/6.png",
-      "/img/works/fine-art/private-records-2023/7.png",
-      "/img/works/fine-art/private-records-2023/8.png",
-      "/img/works/fine-art/private-records-2023/9.png",
+      "/img/works/fine-art/private-records-2023/1.webp",
+      "/img/works/fine-art/private-records-2023/2.webp",
+      "/img/works/fine-art/private-records-2023/3.webp",
+      "/img/works/fine-art/private-records-2023/4.webp",
+      "/img/works/fine-art/private-records-2023/5.webp",
+      "/img/works/fine-art/private-records-2023/6.webp",
+      "/img/works/fine-art/private-records-2023/7.webp",
+      "/img/works/fine-art/private-records-2023/8.webp",
+      "/img/works/fine-art/private-records-2023/9.webp",
     ],
     medium: {
       ko: "종이에 연필, 오일 파스텔, 색연필",
@@ -137,25 +137,25 @@ const ARTICLES: Article[] = [
     id: 2,
     title: "Accident",
     year: "2023",
-    thumbnail: "/img/works/fine-art/accident-2023/thumbnail.jpg",
+    thumbnail: "/img/works/fine-art/accident-2023/thumbnail.webp",
     // Default view: only the final installation shot.
     images: [
-      "/img/works/fine-art/accident-2023/main.png",
+      "/img/works/fine-art/accident-2023/main.webp",
     ],
     // Process view (?view=process): sketch → cut → ink tiles → verso → recto → installation
     processImages: [
-      "/img/works/fine-art/accident-2023/esquisse.png",
-      "/img/works/fine-art/accident-2023/cuttingprocess.png",
+      "/img/works/fine-art/accident-2023/esquisse.webp",
+      "/img/works/fine-art/accident-2023/cuttingprocess.webp",
       {
-        src: "/img/works/fine-art/accident-2023/septer_process.png",
+        src: "/img/works/fine-art/accident-2023/septer_process.webp",
         noteBefore: {
           ko: "종이에 전반적으로 물을 뿌린 후 먹을 퍼트리거나 물통 안에서 먹과 비누거품을 섞어 만들어 낸 많은 조각들 중에서 선별하여 배치",
           en: "After spraying water across the surface of the paper, ink was spread and manipulated. Fragments created by mixing ink and soap bubbles inside a container of water were then selectively chosen and arranged.",
         },
       },
-      "/img/works/fine-art/accident-2023/septer.png",
-      "/img/works/fine-art/accident-2023/outcome2.png",
-      "/img/works/fine-art/accident-2023/outcome.png",
+      "/img/works/fine-art/accident-2023/septer.webp",
+      "/img/works/fine-art/accident-2023/outcome2.webp",
+      "/img/works/fine-art/accident-2023/outcome.webp",
     ],
     medium: {
       ko: "종이에 수채화 물감, 먹, 비누 (양면 작업)",
@@ -186,9 +186,9 @@ const ARTICLES: Article[] = [
     title: "Gradually",
     titleKo: "점점",
     year: "2024",
-    thumbnail: "/img/works/fine-art/gradually-2024/thumbnail.jpg",
+    thumbnail: "/img/works/fine-art/gradually-2024/thumbnail.webp",
     images: [
-      "/img/works/fine-art/gradually-2024/main.png",
+      "/img/works/fine-art/gradually-2024/main.webp",
     ],
     medium: {
       ko: "캔버스에 유채",
@@ -219,13 +219,13 @@ const ARTICLES: Article[] = [
     title: "Blueprints",
     year: "2024",
     label: { ko: "습작", en: "Studies" },
-    thumbnail: "/img/works/fine-art/blueprint-studies-2024/thumbnail.jpg",
+    thumbnail: "/img/works/fine-art/blueprint-studies-2024/thumbnail.webp",
     /* Two distinct works grouped under one article — each image carries its
      * own captionAfter (title + dimensions). They share medium, statement,
      * and a process video. */
     images: [
       {
-        src: "/img/works/fine-art/palgongsan-2024/main.png",
+        src: "/img/works/fine-art/palgongsan-2024/main.webp",
         captionAfter: {
           title: "Palgongsan",
           titleKo: "팔공산",
@@ -234,7 +234,7 @@ const ARTICLES: Article[] = [
         },
       },
       {
-        src: "/img/works/fine-art/mireuksan-2024/main.png",
+        src: "/img/works/fine-art/mireuksan-2024/main.webp",
         captionAfter: {
           title: "At the Cliffs of Mireuksan",
           titleKo: "미륵산 절벽에서",
@@ -267,12 +267,12 @@ const ARTICLES: Article[] = [
     id: 5,
     title: "Cityscapes",
     year: "2024",
-    thumbnail: "/img/works/fine-art/cityscapes-2024/thumbnail.jpg",
+    thumbnail: "/img/works/fine-art/cityscapes-2024/thumbnail.webp",
     /* Two pieces grouped under one article — each carries its own
      * captionAfter (title + dimensions). Shared medium and statement. */
     images: [
       {
-        src: "/img/works/fine-art/inside-the-airplane-2024/main.png",
+        src: "/img/works/fine-art/inside-the-airplane-2024/main.webp",
         captionAfter: {
           title: "Inside the Airplane",
           titleKo: "비행기 안에서",
@@ -281,7 +281,7 @@ const ARTICLES: Article[] = [
         },
       },
       {
-        src: "/img/works/fine-art/seoul-nightscape-2024/main.png",
+        src: "/img/works/fine-art/seoul-nightscape-2024/main.webp",
         captionAfter: {
           title: "Seoul Nightscape",
           titleKo: "서울야경",
@@ -312,8 +312,8 @@ const ARTICLES: Article[] = [
     title: "Sanbok Drawing 1",
     year: "2024",
     label: { ko: "드로잉", en: "Drawing" },
-    thumbnail: "/img/works/fine-art/sanbok-drawing-1-2024/thumbnail.jpg",
-    images: ["/img/works/fine-art/sanbok-drawing-1-2024/main.png"],
+    thumbnail: "/img/works/fine-art/sanbok-drawing-1-2024/thumbnail.webp",
+    images: ["/img/works/fine-art/sanbok-drawing-1-2024/main.webp"],
     medium: { ko: "종이에 연필", en: "Pencil on Paper" },
     dimensions: { ko: "394 × 279 mm", en: "394 × 279 mm" },
     description: {
@@ -327,8 +327,8 @@ const ARTICLES: Article[] = [
     title: "Sanbok Drawing 2",
     year: "2024",
     label: { ko: "드로잉", en: "Drawing" },
-    thumbnail: "/img/works/fine-art/sanbok-drawing-2-2024/thumbnail.jpg",
-    images: ["/img/works/fine-art/sanbok-drawing-2-2024/main.png"],
+    thumbnail: "/img/works/fine-art/sanbok-drawing-2-2024/thumbnail.webp",
+    images: ["/img/works/fine-art/sanbok-drawing-2-2024/main.webp"],
     medium: { ko: "종이에 연필", en: "Pencil on Paper" },
     dimensions: { ko: "394 × 279 mm", en: "394 × 279 mm" },
     description: {
@@ -343,8 +343,8 @@ const ARTICLES: Article[] = [
     titleKo: "노란색은 Old",
     year: "2024",
     label: { ko: "드로잉", en: "Drawing" },
-    thumbnail: "/img/works/fine-art/yellow-is-old-2024/thumbnail.jpg",
-    images: ["/img/works/fine-art/yellow-is-old-2024/main.png"],
+    thumbnail: "/img/works/fine-art/yellow-is-old-2024/thumbnail.webp",
+    images: ["/img/works/fine-art/yellow-is-old-2024/main.webp"],
     medium: { ko: "종이에 오일파스텔", en: "Oil Pastel on Paper" },
     dimensions: { ko: "200 × 545 mm", en: "200 × 545 mm" },
     description: {
@@ -366,7 +366,7 @@ const ARTICLES: Article[] = [
     year: "2024",
     label: { ko: "드로잉", en: "Drawing" },
     thumbnail: "/img/works/fine-art/only-the-white-is-new-2024/thumbnail.jpg",
-    images: ["/img/works/fine-art/only-the-white-is-new-2024/main.png"],
+    images: ["/img/works/fine-art/only-the-white-is-new-2024/main.webp"],
     medium: { ko: "캔버스에 유화, 파스텔", en: "Oil and Pastel on Canvas" },
     dimensions: { ko: "271 × 454 mm", en: "271 × 454 mm" },
     description: {
@@ -389,7 +389,7 @@ const ARTICLES: Article[] = [
     year: "2024",
     label: { ko: "드로잉", en: "Drawing" },
     thumbnail: "/img/works/fine-art/where-they-gather-2024/thumbnail.jpg",
-    images: ["/img/works/fine-art/where-they-gather-2024/main.png"],
+    images: ["/img/works/fine-art/where-they-gather-2024/main.webp"],
     medium: { ko: "종이판넬에 유화", en: "Oil on Paper Panel" },
     dimensions: { ko: "225 × 158 mm", en: "225 × 158 mm" },
     description: {
@@ -405,7 +405,7 @@ const ARTICLES: Article[] = [
     year: "2024",
     label: { ko: "드로잉", en: "Drawing" },
     thumbnail: "/img/works/fine-art/sincerity-2024/thumbnail.jpg",
-    images: ["/img/works/fine-art/sincerity-2024/main.png"],
+    images: ["/img/works/fine-art/sincerity-2024/main.webp"],
     medium: { ko: "종이판넬에 유화", en: "Oil on Paper Panel" },
     dimensions: { ko: "178 × 256 mm", en: "178 × 256 mm" },
     description: {
@@ -421,7 +421,7 @@ const ARTICLES: Article[] = [
     year: "2024",
     label: { ko: "드로잉", en: "Drawing" },
     thumbnail: "/img/works/fine-art/clothesline-2024/thumbnail.jpg",
-    images: ["/img/works/fine-art/clothesline-2024/main.png"],
+    images: ["/img/works/fine-art/clothesline-2024/main.webp"],
     medium: { ko: "종이판넬에 오일파스텔", en: "Oil Pastel on Paper Panel" },
     dimensions: { ko: "178 × 256 mm", en: "178 × 256 mm" },
     description: {
@@ -437,7 +437,7 @@ const ARTICLES: Article[] = [
     year: "2024",
     label: { ko: "드로잉", en: "Drawing" },
     thumbnail: "/img/works/fine-art/gamcheon-2024/thumbnail.jpg",
-    images: ["/img/works/fine-art/gamcheon-2024/main.png"],
+    images: ["/img/works/fine-art/gamcheon-2024/main.webp"],
     medium: { ko: "종이에 과슈", en: "Gouache on Paper" },
     dimensions: { ko: "394 × 279 mm", en: "394 × 279 mm" },
     description: {
@@ -453,7 +453,7 @@ const ARTICLES: Article[] = [
     year: "2025",
     label: { ko: "드로잉", en: "Drawing" },
     thumbnail: "/img/works/fine-art/beginning-from-prehistoric-times-2025/thumbnail.jpg",
-    images: ["/img/works/fine-art/beginning-from-prehistoric-times-2025/main.png"],
+    images: ["/img/works/fine-art/beginning-from-prehistoric-times-2025/main.webp"],
     medium: {
       ko: "장지에 봉채",
       en: "Traditional Korean pigments (Bongchae and Bunchae) on Jangji paper",
@@ -478,9 +478,9 @@ const ARTICLES: Article[] = [
     year: "2025",
     thumbnail: "/img/works/fine-art/goblin-fire-2025/thumbnail.jpg",
     images: [
-      "/img/works/fine-art/goblin-fire-2025/main.png",
-      "/img/works/fine-art/goblin-fire-2025/detail-1.png",
-      "/img/works/fine-art/goblin-fire-2025/detail-2.png",
+      "/img/works/fine-art/goblin-fire-2025/main.webp",
+      "/img/works/fine-art/goblin-fire-2025/detail-1.webp",
+      "/img/works/fine-art/goblin-fire-2025/detail-2.webp",
     ],
     medium: {
       ko: "장지에 봉채와 분채",
@@ -506,10 +506,10 @@ const ARTICLES: Article[] = [
     year: "2025",
     thumbnail: "/img/works/fine-art/goblin-fire-oral-narrative-2025/thumbnail.jpg",
     images: [
-      "/img/works/fine-art/goblin-fire-oral-narrative-2025/main.png",
-      "/img/works/fine-art/goblin-fire-oral-narrative-2025/detail-1.png",
-      "/img/works/fine-art/goblin-fire-oral-narrative-2025/detail-2.png",
-      "/img/works/fine-art/goblin-fire-oral-narrative-2025/detail-3.png",
+      "/img/works/fine-art/goblin-fire-oral-narrative-2025/main.webp",
+      "/img/works/fine-art/goblin-fire-oral-narrative-2025/detail-1.webp",
+      "/img/works/fine-art/goblin-fire-oral-narrative-2025/detail-2.webp",
+      "/img/works/fine-art/goblin-fire-oral-narrative-2025/detail-3.webp",
     ],
     medium: {
       ko: "장지에 유채와 봉채, 분채",
@@ -537,13 +537,13 @@ const ARTICLES: Article[] = [
     year: "2025",
     series: 2,
     thumbnail: "/img/works/fine-art/invocation-2025/thumbnail.jpg",
-    images: ["/img/works/fine-art/invocation-2025/main.jpg"],
+    images: ["/img/works/fine-art/invocation-2025/main.webp"],
     processImages: [
-      "/img/works/fine-art/invocation-2025/process-1.png",
-      "/img/works/fine-art/invocation-2025/process-2.png",
-      "/img/works/fine-art/invocation-2025/process-3.png",
-      "/img/works/fine-art/invocation-2025/process-4.png",
-      "/img/works/fine-art/invocation-2025/process-5.png",
+      "/img/works/fine-art/invocation-2025/process-1.webp",
+      "/img/works/fine-art/invocation-2025/process-2.webp",
+      "/img/works/fine-art/invocation-2025/process-3.webp",
+      "/img/works/fine-art/invocation-2025/process-4.webp",
+      "/img/works/fine-art/invocation-2025/process-5.webp",
     ],
     seriesPrologue: TRILOGY_PROLOGUE,
     medium: {
@@ -572,12 +572,12 @@ const ARTICLES: Article[] = [
     year: "2025",
     series: 3,
     thumbnail: "/img/works/fine-art/metamorphosis-2025/thumbnail.jpg",
-    images: ["/img/works/fine-art/metamorphosis-2025/main.jpg"],
+    images: ["/img/works/fine-art/metamorphosis-2025/main.webp"],
     processImages: [
-      "/img/works/fine-art/metamorphosis-2025/process-1.png",
-      "/img/works/fine-art/metamorphosis-2025/process-2.png",
-      "/img/works/fine-art/metamorphosis-2025/process-3.png",
-      "/img/works/fine-art/metamorphosis-2025/process-4.png",
+      "/img/works/fine-art/metamorphosis-2025/process-1.webp",
+      "/img/works/fine-art/metamorphosis-2025/process-2.webp",
+      "/img/works/fine-art/metamorphosis-2025/process-3.webp",
+      "/img/works/fine-art/metamorphosis-2025/process-4.webp",
     ],
     seriesPrologue: TRILOGY_PROLOGUE,
     medium: {
@@ -606,12 +606,12 @@ const ARTICLES: Article[] = [
     year: "2025",
     series: 1,
     thumbnail: "/img/works/fine-art/genesis-2025/thumbnail.jpg",
-    images: ["/img/works/fine-art/genesis-2025/main.jpg"],
+    images: ["/img/works/fine-art/genesis-2025/main.webp"],
     processImages: [
-      "/img/works/fine-art/genesis-2025/process-1.png",
-      "/img/works/fine-art/genesis-2025/process-2.png",
-      "/img/works/fine-art/genesis-2025/process-3.png",
-      "/img/works/fine-art/genesis-2025/process-4.png",
+      "/img/works/fine-art/genesis-2025/process-1.webp",
+      "/img/works/fine-art/genesis-2025/process-2.webp",
+      "/img/works/fine-art/genesis-2025/process-3.webp",
+      "/img/works/fine-art/genesis-2025/process-4.webp",
     ],
     /* Long-form reflection on the work's evolution — surfaces at the top
      * of the process sub-view to give context before the image stack. */

@@ -99,7 +99,7 @@ const WorksPage = () => {
       href: "/works/fine-art",
       title: works.fine_art,
       description: works.fine_art_description,
-      image: "/img/fine-art-preview.png",
+      image: "/img/fine-art-preview.webp",
     },
     {
       href: "/works/fashion",
@@ -111,7 +111,7 @@ const WorksPage = () => {
       href: "/works/photo",
       title: works.photo,
       description: works.photo_description,
-      image: "/img/photo-preview.jpg",
+      image: "/img/photo-preview.webp",
     },
   ];
 
