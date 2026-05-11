@@ -142,6 +142,15 @@ const ARTICLES: FashionArticle[] = [
       ],
     },
   },
+  {
+    id: 19,
+    kind: "project",
+    look: "10",
+    title: "Evening Primrose",
+    year: "2024",
+    thumbnail: "/img/works/fashion/evening-primrose-2024/thumbnail.jpg",
+    spread: "/img/works/fashion/evening-primrose-2024/spread.webp",
+  },
   /* ── 2025 Collection ─────────────────────────────────────────────────────
    * Runway sequence is encoded in the source file numbering (1.jpg → look 01,
    * 2.jpg → look 02, …). New ids continue from 10 to keep existing
