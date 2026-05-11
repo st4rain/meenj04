@@ -111,7 +111,7 @@ const WorksPage = () => {
       href: "/works/photo",
       title: works.photo,
       description: works.photo_description,
-      image: "/img/photo-preview.webp",
+      image: "/img/works/photo/a-brief-pause-in-life-2023/3.webp",
     },
   ];
 
