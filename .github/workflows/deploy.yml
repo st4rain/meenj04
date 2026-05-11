@@ -1,0 +1,72 @@
+name: Deploy to GitHub Pages
+
+on:
+  # 1. main 브랜치 push 시 자동 배포
+  push:
+    branches: [main]
+  # 2. 월 1회 정기 재배포 — 매월 15일 자정 UTC (한국시간 오전 9시)
+  schedule:
+    - cron: "0 0 15 * *"
+  # 3. 수동 트리거 (Actions 탭에서 Run workflow)
+  workflow_dispatch:
+
+# GITHUB_TOKEN 권한 — deploy-pages 액션이 필요로 하는 권한
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 동시 배포 방지: 진행 중인 배포는 보존, 새 트리거는 큐로
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      # 일시적 네트워크 오류 등에 대응 — 최대 3회 재시도, 회당 10분 타임아웃
+      - name: Install dependencies (with retry)
+        run: |
+          for attempt in 1 2 3; do
+            echo "::group::Attempt $attempt"
+            yarn install --frozen-lockfile && break
+            echo "::endgroup::"
+            if [ $attempt -eq 3 ]; then exit 1; fi
+            sleep 15
+          done
+
+      - name: Build (Next.js static export, with retry)
+        run: |
+          for attempt in 1 2 3; do
+            echo "::group::Attempt $attempt"
+            yarn build && break
+            echo "::endgroup::"
+            if [ $attempt -eq 3 ]; then exit 1; fi
+            sleep 10
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
