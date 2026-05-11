@@ -729,22 +729,24 @@ const ArchivePage = () => {
                 <EmptyState>{archive.empty}</EmptyState>
               ) : (
                 <Grid>
-                  {ARTICLES.map((a) => (
-                    <ArticleCard
-                      key={a.id}
-                      onClick={() =>
-                        router.push(`/archive?articles=${a.id}`)
-                      }
-                    >
-                      <Thumb>
-                        <img src={a.thumbnail} alt={a.title} />
-                      </Thumb>
-                      <Caption>
-                        {a.title}
-                        <span>, {a.year}</span>
-                      </Caption>
-                    </ArticleCard>
-                  ))}
+                  {[...ARTICLES]
+                    .sort((a, b) => b.year.localeCompare(a.year))
+                    .map((a) => (
+                      <ArticleCard
+                        key={a.id}
+                        onClick={() =>
+                          router.push(`/archive?articles=${a.id}`)
+                        }
+                      >
+                        <Thumb>
+                          <img src={a.thumbnail} alt={a.title} />
+                        </Thumb>
+                        <Caption>
+                          {a.title}
+                          <span>, {a.year}</span>
+                        </Caption>
+                      </ArticleCard>
+                    ))}
                 </Grid>
               )}
             </>
