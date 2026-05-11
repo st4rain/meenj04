@@ -220,6 +220,7 @@ const ARTICLES: FashionArticle[] = [
     /* Multi-page design spread: thumbnail (대표이미지) + ten 16:9 process
      * sheets stacked under the hero — the longest spread in the lookbook. */
     id: 18,
+    kind: "project",
     look: "09",
     title: "Grace Ceramic",
     year: "2025",
@@ -797,9 +798,7 @@ const FashionPage = () => {
                      * sequence for digital/conceptual works. */
                     const lead =
                       article.kind === "project"
-                        ? lang === "ko"
-                          ? "프로젝트"
-                          : "PROJECT"
+                        ? "PROJECT"
                         : `LOOK ${article.look}`;
                     /* Sub-category label (e.g. "Digital Illustration")
                      * sits next to the collection year so visitors know
@@ -971,9 +970,7 @@ const FashionPage = () => {
                           >
                             <LookKicker>
                               {a.kind === "project"
-                                ? lang === "ko"
-                                  ? "프로젝트"
-                                  : "Project"
+                                ? "Project"
                                 : `Look ${a.look}`}
                             </LookKicker>
                             <Thumb>
